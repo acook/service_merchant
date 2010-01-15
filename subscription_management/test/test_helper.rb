@@ -2,7 +2,7 @@
 
 require 'rubygems'
 require 'test/unit'
-require 'activesupport'
+require 'active_support'
 
 silence_warnings do
   require 'active_merchant'

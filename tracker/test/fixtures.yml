@@ -11,8 +11,9 @@
 # Paste any required PEM certificates after the pem key.
 #
 authorize_net:
-  login: LOGIN
-  password: PASSWORD
+  gateway: authorize_net
+  login: 6zz6m5N4Et
+  password: 9V9wUv6Yd92t27t5
   is_test: true
 
 # You can use either your API PEM file or API signature with PayPal.
@@ -24,7 +25,8 @@ paypal_certificate:
     PASTE YOUR PEM FILE HERE
 
 paypal:
-  login: LOGIN
-  password: PASSWORD
-  signature: SIGNATURE
+  gateway: paypal
+  login: a.lebe_1220380924_biz_api1.list.ru
+  password: 1220380928
+  signature: An5ns1Kso7MWUdW4ErQKJJJ4qi4-ABavC-ayabELBOsjVjsDpfMCgJRN
   is_test: true

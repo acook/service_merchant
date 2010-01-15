@@ -1,7 +1,6 @@
 # As we're not using Rails in tests, we have to establish DB conneciton ourselves
 require 'rubygems'
-gem 'activerecord'
-require 'activerecord'
+require 'active_record'
 gem 'sqlite3-ruby'
 
 ActiveRecord::Base.establish_connection(

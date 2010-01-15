@@ -1,7 +1,7 @@
-#TODO: Use auto-loading from activesupport
+#TODO: Use auto-loading from active_support
 
 require 'rubygems'
-require 'activerecord'
+require 'active_record'
 
 $: << File.dirname(__FILE__) + "/../vendor/money-1.7.1/lib"
 
