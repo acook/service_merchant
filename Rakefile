@@ -50,7 +50,7 @@ spec = Gem::Specification.new do |s|
 
   s.files = PKG_FILES
 
-  s.add_dependency('activemerchant', '= 1.3.2')
+  s.add_dependency('active_merchant', '= 1.5.2')
 end
 
 Rake::GemPackageTask.new(spec) do |p|

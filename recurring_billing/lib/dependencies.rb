@@ -8,5 +8,5 @@ require "money"
 
 require 'active_support'
 class String # :nodoc:
-  include ActiveSupport::CoreExtensions::String::Inflections
+#  include ActiveSupport::CoreExtensions::String::Inflections
 end

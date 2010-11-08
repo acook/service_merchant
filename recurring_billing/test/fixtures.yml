@@ -10,11 +10,11 @@
 #
 # Paste any required PEM certificates after the pem key.
 #
-authorize_net:
-  gateway: authorize_net
-  login: 6zz6m5N4Et
-  password: 9V9wUv6Yd92t27t5
-  is_test: true
+#authorize_net:
+#  gateway: authorize_net
+#  login: 6zz6m5N4Et
+#  password: 9V9wUv6Yd92t27t5
+#  is_test: true
 
 # You can use either your API PEM file or API signature with PayPal.
 paypal_certificate:
