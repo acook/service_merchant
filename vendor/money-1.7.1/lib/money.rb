@@ -22,7 +22,7 @@
 #++
 
 
-require File.dirname(__FILE__) + '/support/cattr_accessor'
+#require File.dirname(__FILE__) + '/support/cattr_accessor'
 require File.dirname(__FILE__) + '/bank/no_exchange_bank'
 require File.dirname(__FILE__) + '/bank/variable_exchange_bank'
 require File.dirname(__FILE__) + '/money/money'
